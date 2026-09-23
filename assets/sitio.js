@@ -451,7 +451,7 @@
     if (C.whatsappPedidos && C.whatsappPedidos !== C.whatsapp) l.push(['<path d="M5 4h14v17l-3.5-2-3.5 2-3.5-2L5 21Z"/>', "Pedidos", '<a href="' + enlaceWa(C.whatsappPedidos) + '" target="_blank" rel="noopener">' + tel(C.whatsappPedidos) + "</a>"]);
     if (C.telefono2) l.push(['<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/>', "Teléfono", '<a href="tel:+' + C.telefono2.replace(/\D/g, "") + '">' + tel(C.telefono2) + "</a>"]);
     if (C.correo) l.push(['<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>', "Correo", '<a href="mailto:' + esc(C.correo) + '">' + esc(C.correo) + "</a>"]);
-    if (C.telegram) l.push(['<path d="m21 4-18 7 6 2 2 6 3-4 5 4Z"/>', "Telegram", '<a href="https://t.me/' + esc(C.telegram.replace(/^@/, "")) + '" target="_blank" rel="noopener">@' + esc(C.telegram.replace(/^@/, "")) + "</a>"]);
+    if (C.telegram) l.push(['<path d="m21 4-18 7 6 2 2 6 3-4 5 4Z"/>', (/bot$/i.test(C.telegram) ? "Bot de Telegram" : "Telegram"), '<a href="https://t.me/' + esc(C.telegram.replace(/^@/, "")) + '" target="_blank" rel="noopener">@' + esc(C.telegram.replace(/^@/, "")) + "</a>"]);
     if (C.facebook) l.push(['<path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v7h4v-7h3l1-4h-4V8Z"/>', "Facebook", '<a href="' + esc(C.facebook) + '" target="_blank" rel="noopener">Facebook</a>']);
     if (C.instagram) l.push(['<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/>', "Instagram", '<a href="' + esc(C.instagram) + '" target="_blank" rel="noopener">Instagram</a>']);
     if (C.direccion) {
