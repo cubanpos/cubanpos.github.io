@@ -601,6 +601,10 @@
     setInterval(pintarHorario, 60000);
     navegacion(); eventos();
     observar($$(".rv:not(.in)"));
+    // Red de seguridad: si el navegador no avisa de lo visible, lo de la pantalla aparece igual.
+    setTimeout(function () {
+      $$(".rv:not(.in)").forEach(function (el) { if (el.getBoundingClientRect().top < innerHeight) el.classList.add("in"); });
+    }, 2500);
     segunHash();
   }
 
