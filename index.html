@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CUBANPOS — Sistemas POS y equipos para negocios en Santiago de Cuba</title>
+<meta name="description" content="Sistemas POS AxisPOS, cajas táctiles, impresoras térmicas, escáneres, alarmas y servicios para negocios en Santiago de Cuba. Arma tu pedido y envíalo por WhatsApp.">
+<meta name="theme-color" content="#070b14">
+<link rel="canonical" href="https://cubanpos.github.io/">
+<link rel="icon" href="img/marca/icono.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CUBANPOS">
+<meta property="og:title" content="CUBANPOS — Sistemas POS y equipos para negocios">
+<meta property="og:description" content="Software de ventas, cajas, impresoras, escáneres y alarmas. Instalación y soporte en Santiago de Cuba.">
+<meta property="og:image" content="https://cubanpos.github.io/img/marca/compartir.jpg">
+<meta property="og:url" content="https://cubanpos.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="preload" href="datos/catalogo.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="assets/sitio.css?v=2">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="saltar" href="#tienda">Ir a la tienda</a>
+<div class="progreso" aria-hidden="true"></div>
+
+<div class="aviso" id="aviso" hidden><div class="aviso-pista"></div></div>
+
+<header class="barra" id="barra">
+  <a class="logo" href="#inicio" aria-label="CUBANPOS, inicio">
+    <svg class="logo-marca" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7ec8f0"/><stop offset="1" stop-color="#2f7cf6"/></linearGradient></defs><path d="M8 4h24a4 4 0 0 1 4 4v26l-4-2.6-4 2.6-4-2.6-4 2.6-4-2.6-4 2.6-4-2.6V8a4 4 0 0 1 4-4Z" fill="url(#lg)"/><path d="m20 10 2.35 4.9 5.35.7-3.9 3.7 1 5.3L20 22.1l-4.8 2.5 1-5.3-3.9-3.7 5.35-.7Z" fill="#fff"/></svg>
+    <span class="logo-texto">CUBAN<b>POS</b></span>
+  </a>
+  <nav class="menu" id="menu" aria-label="Secciones">
+    <a href="#soluciones">Soluciones</a>
+    <a href="#tienda">Tienda</a>
+    <a href="#como">Cómo trabajamos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <div class="barra-acciones">
+    <span class="estado" id="estadoBarra" hidden></span>
+    <label class="moneda" id="monedaCaja" hidden><span class="vh">Moneda</span><select id="moneda"></select></label>
+    <button class="btn-pedido" id="abrirPedido" type="button" aria-label="Ver pedido">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v17l-2.3-1.5-2.4 1.5-2.3-1.5-2.3 1.5-2.4-1.5L5 21Z"/><path d="M9 9h6M9 13h4"/></svg>
+      <span class="btn-pedido-txt">Pedido</span><span class="contador" id="contador" hidden>0</span>
+    </button>
+    <button class="btn-menu" id="btnMenu" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<!-- PORTADA -->
+<section class="portada noche" id="inicio">
+  <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="rejilla-fondo" aria-hidden="true"></div>
+  <div class="contenedor portada-cuerpo">
+    <div class="portada-texto">
+      <p class="eyebrow rv" data-t="portada.etiqueta"></p>
+      <h1 class="rv"><span data-t="portada.titulo"></span></h1>
+      <p class="rotativo rv" aria-live="polite">Para <span class="rotativo-caja"><span id="rotativa"></span></span></p>
+      <p class="portada-bajada rv" data-t="portada.texto"></p>
+      <p class="sello-autorizado rv" id="selloAutorizado" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8 20 6v6.2c0 4.5-3.3 7.6-8 9-4.7-1.4-8-4.5-8-9V6Z"/><path d="m8.8 12 2.3 2.3 4.3-4.6"/></svg><span data-t="portada.sello"></span></p>
+      <div class="acciones rv">
+        <a class="btn btn-luz" href="#tienda">Ver la tienda <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-wa" data-wa href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.6A8.4 8.4 0 0 1 7.6 19l-3.6 1 1-3.5A8.4 8.4 0 1 1 20 11.6Z"/><path d="M9 8.6c.3 2.9 2.9 5.9 6.2 6.6l1.2-1.4-1.9-1-1 .8c-1-.4-2-1.4-2.5-2.5l.8-1-1-1.9Z"/></svg>Escribir por WhatsApp</a>
+      </div>
+    </div>
+    <div class="portada-escena rv" aria-hidden="true">
+      <div class="escena-fotos" id="escenaFotos"></div>
+      <div class="tique-flotante">
+        <div class="tique-papel">
+          <div class="tique-cab">CUBANPOS · VENTA</div>
+          <div class="tique-linea"><span>AxisPOS Tiendas</span><span>1</span></div>
+          <div class="tique-linea"><span>Impresora 80 mm</span><span>1</span></div>
+          <div class="tique-linea"><span>Escáner 2D</span><span>2</span></div>
+          <div class="tique-total"><span>COBRADO</span><span>✓</span></div>
+          <div class="tique-barras"></div>
+        </div>
+      </div>
+      <div class="aviso-flotante"><span class="punto"></span><div><b>Venta registrada</b><small>Caja 1 · hace un momento</small></div></div>
+    </div>
+  </div>
+  <div class="contenedor cifras" id="cifras"></div>
+</section>
+
+<!-- SOLUCIONES -->
+<section class="soluciones noche" id="soluciones">
+  <div class="contenedor">
+    <div class="cabecera rv">
+      <p class="eyebrow">Soluciones</p>
+      <h2 data-t="soluciones.titulo"></h2>
+      <p class="bajada" data-t="soluciones.texto"></p>
+    </div>
+    <div class="bento" id="bento"></div>
+  </div>
+</section>
+
+<div class="cinta" aria-hidden="true"><div class="cinta-pista" id="cinta"></div></div>
+
+<!-- TIENDA -->
+<section class="tienda papel" id="tienda">
+  <div class="contenedor">
+    <div class="cabecera rv">
+      <p class="eyebrow">Tienda</p>
+      <h2 data-t="tienda.titulo"></h2>
+      <p class="bajada" data-t="tienda.texto"></p>
+    </div>
+  </div>
+  <div class="herramientas" id="herramientas">
+    <div class="contenedor herramientas-fila">
+      <label class="buscar"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg><span class="vh">Buscar</span><input id="buscar" type="search" placeholder="Buscar impresora, escáner, AxisPOS…" autocomplete="off"></label>
+      <div class="filtros">
+        <button type="button" class="filtro" id="fOfertas" aria-pressed="false">Ofertas</button>
+        <button type="button" class="filtro" id="fDisponibles" aria-pressed="false">Disponibles</button>
+        <label class="orden"><span class="vh">Ordenar</span><select id="orden"><option value="rel">Destacados</option><option value="asc">Precio: menor a mayor</option><option value="desc">Precio: mayor a menor</option><option value="az">Nombre A–Z</option></select></label>
+      </div>
+    </div>
+    <div class="contenedor"><div class="chips" id="chips" role="tablist" aria-label="Categorías"></div></div>
+  </div>
+  <div class="contenedor">
+    <p class="resultado" id="resultado" aria-live="polite"></p>
+    <div class="catalogo" id="catalogo"></div>
+    <div class="ver-mas" id="verMasCaja" hidden><button type="button" class="btn btn-tinta" id="verMas">Ver más productos</button></div>
+    <div class="vacio" id="vacio" hidden><b>No encontramos nada con esa búsqueda.</b><span>Prueba con otra palabra o pregúntanos por WhatsApp: puede que lo consigamos.</span><button type="button" class="btn btn-tinta" id="limpiar">Ver todo el catálogo</button></div>
+  </div>
+</section>
+
+<!-- CÓMO -->
+<section class="como papel" id="como">
+  <div class="contenedor">
+    <div class="cabecera rv"><p class="eyebrow">Cómo trabajamos</p><h2>Del catálogo a tu mostrador en tres pasos</h2></div>
+    <ol class="pasos" id="pasos"></ol>
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section class="galeria noche">
+  <div class="contenedor">
+    <div class="cabecera rv"><p class="eyebrow">En el mostrador</p><h2>Así se ve cuando ya está funcionando</h2></div>
+  </div>
+  <div class="tira" id="tira">
+    <figure><img src="img/marca/portada-3.webp" alt="Entrega de una compra con el tique impreso" loading="lazy" width="800" height="800"></figure>
+    <figure><img src="img/marca/comanda.webp" alt="Comanda impresa en la cocina de un restaurante" loading="lazy" width="800" height="363"></figure>
+    <figure><img src="img/marca/portada-2.webp" alt="Cobro en una cafetería con pantalla del cliente" loading="lazy" width="800" height="800"></figure>
+    <figure><img src="img/marca/tique.webp" alt="Tiques de comanda con el pedido de cada mesa" loading="lazy" width="800" height="414"></figure>
+    <figure><img src="img/marca/portada-1.webp" alt="Caja táctil en el mostrador de una tienda" loading="lazy" width="800" height="800"></figure>
+  </div>
+</section>
+
+<!-- PREGUNTAS -->
+<section class="preguntas papel" id="preguntas">
+  <div class="contenedor preguntas-rejilla">
+    <div class="cabecera rv"><p class="eyebrow">Antes de pedir</p><h2>Preguntas frecuentes</h2><p class="bajada">Si tu duda no está aquí, escríbenos: respondemos en horario de atención.</p></div>
+    <div class="acordeon" id="acordeon"></div>
+  </div>
+</section>
+
+<section class="testimonios papel" id="testimonios" hidden>
+  <div class="contenedor"><div class="cabecera rv"><p class="eyebrow">Clientes</p><h2>Lo que dicen los negocios</h2></div><div class="testimonios-rejilla" id="testimoniosRejilla"></div></div>
+</section>
+
+<!-- CONTACTO -->
+<section class="contacto noche" id="contacto">
+  <div class="aurora aurora-baja" aria-hidden="true"><i></i><i></i></div>
+  <div class="contenedor contacto-rejilla">
+    <div class="rv">
+      <p class="eyebrow">Contacto</p>
+      <h2>Hablemos de tu negocio</h2>
+      <p class="bajada">Cuéntanos qué vendes y cuántas cajas tienes: te decimos qué necesitas y qué no.</p>
+      <a class="btn btn-wa btn-grande" data-wa href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.6A8.4 8.4 0 0 1 7.6 19l-3.6 1 1-3.5A8.4 8.4 0 1 1 20 11.6Z"/><path d="M9 8.6c.3 2.9 2.9 5.9 6.2 6.6l1.2-1.4-1.9-1-1 .8c-1-.4-2-1.4-2.5-2.5l.8-1-1-1.9Z"/></svg>Escribir por WhatsApp</a>
+      <ul class="datos" id="datosContacto"></ul>
+    </div>
+    <div class="horario rv" id="horario"></div>
+  </div>
+</section>
+</main>
+
+<footer class="pie noche">
+  <div class="contenedor pie-fila">
+    <a class="logo" href="#inicio"><svg class="logo-marca" viewBox="0 0 40 40" aria-hidden="true"><path d="M8 4h24a4 4 0 0 1 4 4v26l-4-2.6-4 2.6-4-2.6-4 2.6-4-2.6-4 2.6-4-2.6V8a4 4 0 0 1 4-4Z" fill="url(#lg)"/><path d="m20 10 2.35 4.9 5.35.7-3.9 3.7 1 5.3L20 22.1l-4.8 2.5 1-5.3-3.9-3.7 5.35-.7Z" fill="#fff"/></svg><span class="logo-texto">CUBAN<b>POS</b></span></a>
+    <p class="pie-texto" data-t="marca.descripcion"></p>
+    <nav class="pie-enlaces" id="pieCategorias" aria-label="Categorías"></nav>
+  </div>
+  <div class="contenedor pie-legal"><span>© <span id="anio"></span> CUBANPOS · Santiago de Cuba</span><span>Precios en <span id="pieMoneda">USD</span>, sujetos a confirmación por WhatsApp.</span></div>
+</footer>
+
+<!-- FICHA DE PRODUCTO -->
+<dialog class="ficha" id="ficha" aria-labelledby="fichaNombre">
+  <button class="cerrar" type="button" data-cerrar aria-label="Cerrar" autofocus><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  <div class="ficha-cuerpo" id="fichaCuerpo"></div>
+</dialog>
+
+<!-- PEDIDO -->
+<dialog class="pedido" id="pedido" aria-labelledby="pedidoTitulo">
+  <div class="pedido-cab"><h2 id="pedidoTitulo">Tu pedido</h2><button class="cerrar" type="button" data-cerrar aria-label="Cerrar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+  <div class="pedido-lista" id="pedidoLista"></div>
+  <form class="pedido-pie" id="pedidoForm">
+    <div class="pedido-total"><span>Total estimado</span><b id="pedidoTotal">$0.00</b></div>
+    <p class="pedido-nota" id="pedidoNota"></p>
+    <label class="campo"><span>Tu nombre</span><input id="pNombre" autocomplete="name" placeholder="Opcional"></label>
+    <label class="campo"><span>Nombre del negocio y municipio</span><input id="pNegocio" placeholder="Opcional, nos ayuda a preparar la visita"></label>
+    <button class="btn btn-wa btn-ancho" type="submit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.6A8.4 8.4 0 0 1 7.6 19l-3.6 1 1-3.5A8.4 8.4 0 1 1 20 11.6Z"/><path d="M9 8.6c.3 2.9 2.9 5.9 6.2 6.6l1.2-1.4-1.9-1-1 .8c-1-.4-2-1.4-2.5-2.5l.8-1-1-1.9Z"/></svg>Enviar pedido por WhatsApp</button>
+    <button class="enlace-vaciar" type="button" id="vaciar">Vaciar pedido</button>
+  </form>
+</dialog>
+
+<button class="pedido-flotante" id="pedidoFlotante" type="button" hidden><span id="pfCantidad">0 productos</span><b id="pfTotal">$0</b><span>Ver pedido</span></button>
+<div class="tostada" id="tostada" role="status" aria-live="polite"></div>
+
+<noscript><p class="sin-js">Esta página necesita JavaScript para mostrar el catálogo. Escríbenos por WhatsApp al +53 58146895.</p></noscript>
+<script src="assets/sitio.js?v=2" defer></script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+{
+ "version": 1,
+ "marca": {
+  "nombre": "CUBANPOS",
+  "descripcion": "Sistemas POS, equipos para negocios y soporte técnico en Santiago de Cuba. Arma tu pedido en la tienda y te llega por WhatsApp."
+ },
+ "contacto": {
+  "whatsapp": "5358146895",
+  "whatsappPedidos": "5358146895",
+  "telefono2": "5351120177",
+  "correo": "yerromenu.jr2021@gmail.com",
+  "direccion": "Santiago de Cuba, Cuba",
+  "coordenadas": [
+   20.026487,
+   -75.821276
+  ],
+  "telegram": "",
+  "facebook": "",
+  "instagram": "",
+  "youtube": ""
+ },
+ "horario": {
+  "zona": "America/Havana",
+  "modo": "horario",
+  "dias": {
+   "lun": [
+    "09:00",
+    "17:00"
+   ],
+   "mar": [
+    "09:00",
+    "17:00"
+   ],
+   "mie": [
+    "09:00",
+    "17:00"
+   ],
+   "jue": [
+    "09:00",
+    "17:00"
+   ],
+   "vie": [
+    "09:00",
+    "17:00"
+   ],
+   "sab": [
+    "09:00",
+    "17:00"
+   ],
+   "dom": null
+  }
+ },
+ "monedas": {
+  "base": "USD",
+  "porDefecto": "USD",
+  "lista": [
+   {
+    "codigo": "USD",
+    "nombre": "Dólar",
+    "simbolo": "$",
+    "tasa": 1,
+    "activa": true
+   },
+   {
+    "codigo": "CUP",
+    "nombre": "Peso cubano",
+    "simbolo": "$",
+    "tasa": 400,
+    "activa": false
+   },
+   {
+    "codigo": "MLC",
+    "nombre": "MLC",
+    "simbolo": "$",
+    "tasa": 1,
+    "activa": false
+   },
+   {
+    "codigo": "EUR",
+    "nombre": "Euro",
+    "simbolo": "€",
+    "tasa": 0.86,
+    "activa": false
+   },
+   {
+    "codigo": "USDT",
+    "nombre": "USDT",
+    "simbolo": "₮",
+    "tasa": 1,
+    "activa": false
+   },
+   {
+    "codigo": "ZELLE",
+    "nombre": "Zelle",
+    "simbolo": "$",
+    "tasa": 1,
+    "activa": false
+   }
+  ]
+ },
+ "aviso": {
+  "activo": true,
+  "texto": "¿Tienes AxisPOS? Imprime las etiquetas de precios de tus góndolas con AxisPrecios",
+  "producto": "generador-de-etiquetas-de-precios-de-axispos-axisprecios"
+ },
+ "portada": {
+  "etiqueta": "Software · Equipos · Soporte en Santiago de Cuba",
+  "titulo": "Tu negocio cobrando rápido y con todo bajo control",
+  "rotativas": [
+   "tiendas",
+   "restaurantes",
+   "cafeterías",
+   "mercados",
+   "casas de cambio"
+  ],
+  "texto": "Sistemas POS, cajas táctiles, impresoras, escáneres y alarmas. Te lo instalamos en el local, te enseñamos a usarlo y seguimos contigo después.",
+  "fotos": [
+   "img/marca/portada-1.webp",
+   "img/marca/portada-2.webp",
+   "img/marca/portada-3.webp"
+  ],
+  "sello": "Distribuidor autorizado de AxisSoft en Santiago de Cuba"
+ },
+ "cifras": [
+  {
+   "valor": "14+",
+   "texto": "años instalando sistemas de venta"
+  },
+  {
+   "valor": "{productos}",
+   "texto": "productos y servicios en la tienda"
+  },
+  {
+   "valor": "{categorias}",
+   "texto": "categorías para tu negocio"
+  },
+  {
+   "valor": "1 día",
+   "texto": "para dejar tu caja funcionando"
+  }
+ ],
+ "soluciones": {
+  "titulo": "Programas hechos para negocios cubanos",
+  "texto": "AxisPOS y sus complementos: ventas, inventario, cocina, etiquetas, carteleras y casas de cambio. Funcionan sin internet y con la moneda que uses."
+ },
+ "tienda": {
+  "titulo": "La tienda",
+  "texto": "Agrega lo que te interesa y envía el pedido por WhatsApp: nos llega ya escrito, con cantidades y precios, y te respondemos enseguida."
+ },
+ "pasos": [
+  {
+   "titulo": "Eliges en la tienda",
+   "texto": "Agrega al pedido los equipos y programas que necesita tu negocio. Si tienes dudas, pregunta por un producto desde su ficha."
+  },
+  {
+   "titulo": "Te respondemos por WhatsApp",
+   "texto": "Confirmamos disponibilidad, forma de pago y el regalo que va con tu compra, porque siempre regalamos algo."
+  },
+  {
+   "titulo": "Instalamos y te enseñamos",
+   "texto": "Montamos y configuramos todo en tu local, y te dejamos a ti y a tus dependientes usándolo con soltura."
+  }
+ ],
+ "preguntas": [
+  {
+   "pregunta": "¿Cómo hago un pedido?",
+   "respuesta": "Agrega los productos al pedido y pulsa «Enviar por WhatsApp». El mensaje sale ya escrito con lo que elegiste; solo tienes que enviarlo."
+  },
+  {
+   "pregunta": "¿Hay que pagar por adelantado?",
+   "respuesta": "En los trabajos por encargo se paga el 50 % por adelantado. El resto, al entregar."
+  },
+  {
+   "pregunta": "¿Cobran el traslado?",
+   "respuesta": "Sí: al total se le suma el costo del transporte según la zona de entrega que nos indiques."
+  },
+  {
+   "pregunta": "¿Me enseñan a usar el sistema?",
+   "respuesta": "Sí. La instalación incluye la puesta en marcha, y además ofrecemos capacitación de AxisPOS para dueños y dependientes."
+  }
+ ],
+ "testimonios": [],
+ "condiciones": {
+  "pedido": "",
+  "entrega": ""
+ },
+ "categorias": [],
+ "productos": []
+}

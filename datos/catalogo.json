@@ -1,0 +1,1006 @@
+{
+ "version": 1,
+ "marca": {
+  "nombre": "CUBANPOS",
+  "descripcion": "Sistemas POS, equipos para negocios y soporte técnico en Santiago de Cuba. Arma tu pedido en la tienda y te llega por WhatsApp."
+ },
+ "contacto": {
+  "whatsapp": "5358146895",
+  "whatsappPedidos": "5358146895",
+  "telefono2": "5351120177",
+  "correo": "yerromenu.jr2021@gmail.com",
+  "direccion": "Santiago de Cuba, Cuba",
+  "coordenadas": [
+   20.026487,
+   -75.821276
+  ],
+  "telegram": "",
+  "facebook": "",
+  "instagram": "",
+  "youtube": ""
+ },
+ "horario": {
+  "zona": "America/Havana",
+  "modo": "horario",
+  "dias": {
+   "lun": [
+    "09:00",
+    "17:00"
+   ],
+   "mar": [
+    "09:00",
+    "17:00"
+   ],
+   "mie": [
+    "09:00",
+    "17:00"
+   ],
+   "jue": [
+    "09:00",
+    "17:00"
+   ],
+   "vie": [
+    "09:00",
+    "17:00"
+   ],
+   "sab": [
+    "09:00",
+    "17:00"
+   ],
+   "dom": null
+  }
+ },
+ "monedas": {
+  "base": "USD",
+  "porDefecto": "USD",
+  "lista": [
+   {
+    "codigo": "USD",
+    "nombre": "Dólar",
+    "simbolo": "$",
+    "tasa": 1,
+    "activa": true
+   },
+   {
+    "codigo": "CUP",
+    "nombre": "Peso cubano",
+    "simbolo": "$",
+    "tasa": 400,
+    "activa": false
+   },
+   {
+    "codigo": "MLC",
+    "nombre": "MLC",
+    "simbolo": "$",
+    "tasa": 1,
+    "activa": false
+   },
+   {
+    "codigo": "EUR",
+    "nombre": "Euro",
+    "simbolo": "€",
+    "tasa": 0.86,
+    "activa": false
+   },
+   {
+    "codigo": "USDT",
+    "nombre": "USDT",
+    "simbolo": "₮",
+    "tasa": 1,
+    "activa": false
+   },
+   {
+    "codigo": "ZELLE",
+    "nombre": "Zelle",
+    "simbolo": "$",
+    "tasa": 1,
+    "activa": false
+   }
+  ]
+ },
+ "aviso": {
+  "activo": true,
+  "texto": "¿Tienes AxisPOS? Imprime las etiquetas de precios de tus góndolas con AxisPrecios",
+  "producto": "generador-de-etiquetas-de-precios-de-axispos-axisprecios"
+ },
+ "portada": {
+  "etiqueta": "Software · Equipos · Soporte en Santiago de Cuba",
+  "titulo": "Tu negocio cobrando rápido y con todo bajo control",
+  "rotativas": [
+   "tiendas",
+   "restaurantes",
+   "cafeterías",
+   "mercados",
+   "casas de cambio"
+  ],
+  "texto": "Sistemas POS, cajas táctiles, impresoras, escáneres y alarmas. Te lo instalamos en el local, te enseñamos a usarlo y seguimos contigo después.",
+  "fotos": [
+   "img/marca/portada-1.webp",
+   "img/marca/portada-2.webp",
+   "img/marca/portada-3.webp"
+  ],
+  "sello": "Distribuidor autorizado de AxisSoft en Santiago de Cuba"
+ },
+ "cifras": [
+  {
+   "valor": "14+",
+   "texto": "años instalando sistemas de venta"
+  },
+  {
+   "valor": "{productos}",
+   "texto": "productos y servicios en la tienda"
+  },
+  {
+   "valor": "{categorias}",
+   "texto": "categorías para tu negocio"
+  },
+  {
+   "valor": "1 día",
+   "texto": "para dejar tu caja funcionando"
+  }
+ ],
+ "soluciones": {
+  "titulo": "Programas hechos para negocios cubanos",
+  "texto": "AxisPOS y sus complementos: ventas, inventario, cocina, etiquetas, carteleras y casas de cambio. Funcionan sin internet y con la moneda que uses."
+ },
+ "tienda": {
+  "titulo": "La tienda",
+  "texto": "Agrega lo que te interesa y envía el pedido por WhatsApp: nos llega ya escrito, con cantidades y precios, y te respondemos enseguida."
+ },
+ "pasos": [
+  {
+   "titulo": "Eliges en la tienda",
+   "texto": "Agrega al pedido los equipos y programas que necesita tu negocio. Si tienes dudas, pregunta por un producto desde su ficha."
+  },
+  {
+   "titulo": "Te respondemos por WhatsApp",
+   "texto": "Confirmamos disponibilidad, forma de pago y el regalo que va con tu compra, porque siempre regalamos algo."
+  },
+  {
+   "titulo": "Instalamos y te enseñamos",
+   "texto": "Montamos y configuramos todo en tu local, y te dejamos a ti y a tus dependientes usándolo con soltura."
+  }
+ ],
+ "preguntas": [
+  {
+   "pregunta": "¿Cómo hago un pedido?",
+   "respuesta": "Agrega los productos al pedido y pulsa «Enviar por WhatsApp». El mensaje sale ya escrito con lo que elegiste; solo tienes que enviarlo."
+  },
+  {
+   "pregunta": "¿Hay que pagar por adelantado?",
+   "respuesta": "En los trabajos por encargo se paga el 50 % por adelantado. El resto, al entregar."
+  },
+  {
+   "pregunta": "¿Cobran el traslado?",
+   "respuesta": "Sí: al total se le suma el costo del transporte según la zona de entrega que nos indiques."
+  },
+  {
+   "pregunta": "¿Me enseñan a usar el sistema?",
+   "respuesta": "Sí. La instalación incluye la puesta en marcha, y además ofrecemos capacitación de AxisPOS para dueños y dependientes."
+  }
+ ],
+ "testimonios": [],
+ "condiciones": {
+  "pedido": "Para los servicios que desee información debe seleccionarlos y enviar su intensión de pedido a mi WhatsApp, y de inmediato le respondo con más información sobre ese servicio, la forma de pago y por supuesto lo que recibirá gratis, porque siempre regalo algo. Gracias",
+  "entrega": "Para los trabajos por encargos y pedidos debe efectuar el pago del 50% del valor del servicio de forma anticipada. Al valor de su solicitud le será incorporado el costo de la transportación segun su zona de domicilio informado para la entrega, y el valor resultante será el total del servicio."
+ },
+ "categorias": [
+  {
+   "id": "software",
+   "nombre": "Software y apps",
+   "icono": "codigo"
+  },
+  {
+   "id": "equipos",
+   "nombre": "Equipos para negocios",
+   "icono": "caja"
+  },
+  {
+   "id": "seguridad",
+   "nombre": "Alarmas y seguridad",
+   "icono": "escudo"
+  },
+  {
+   "id": "otros",
+   "nombre": "Otros equipos",
+   "icono": "tableta"
+  },
+  {
+   "id": "servicios",
+   "nombre": "Servicios",
+   "icono": "llave"
+  },
+  {
+   "id": "qr",
+   "nombre": "Códigos QR de pago",
+   "icono": "qr"
+  },
+  {
+   "id": "insumos",
+   "nombre": "Papelería e insumos",
+   "icono": "rollo"
+  }
+ ],
+ "productos": [
+  {
+   "id": "sistema-de-control-de-ventas-por-caja",
+   "nombre": "Sistema AxisPos Restaurante",
+   "categoria": "software",
+   "precio": 400,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Ideal para negocios de restauración, hostelería y comercios en general. Elimina el control manual de tus ventas y protege mejor tus ingresos. Con una laptop o pantalla táctil, una impresora térmica, lectores de códigos, etiquetadores y dispositivos Android en dependencia del tipo de negocio, implementamos un sistema fácil de operar, intuitivo, con seguridad y reportes disímiles para garantizar el control de tus ventas por mesa, turnos, terminales, empleado, le incorporamos dispositivos moviles Android para comandar y las impresoras en cocina. Aportando una alta productividad al negocio, pueden operar varias terminales a la vez y se conecta al sistema mi caja online para el control de las ventas por parte de los dueños. El precio del servicio incluye equipos, sistema, instalación y un valor mensual de mtto de asistencia q debe ser cotizado al realizar diagnóstico del negocio.",
+   "foto": "img/productos/sistema-de-control-de-ventas-por-caja.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 0
+  },
+  {
+   "id": "implementacion-del-sistema-de-ventas-tpv-para-tiendas-bares-y-restaurantes",
+   "nombre": "AxisPos para Tiendas",
+   "categoria": "software",
+   "precio": 300,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "AxisPos es un sistema de punto de venta diseñado para tiendas que centraliza inventario, ventas, precios y cobros en una sola plataforma, permitiendo operar más rápido, con menos errores y con control total del negocio.\nGestiona productos, precios y existencias en tiempo real.\nRegistra ventas y métodos de pago de forma ágil.\nReduce errores humanos y acelera el proceso de cobro.\nOfrece reportes claros para tomar decisiones comerciales.",
+   "foto": "img/productos/implementacion-del-sistema-de-ventas-tpv-para-tiendas-bares-y-restaurantes.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 1
+  },
+  {
+   "id": "apk-axiscloud",
+   "nombre": "AxisPos Administración (BackOffice)",
+   "categoria": "software",
+   "precio": 200,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "La versión BackOffice o de Oficina de AxisPOS se utiliza generalmente por Administrativos, Manager o Almaceneros, es una version del software punto de venta (POS) completo y flexible, pero limitada en cuanto a vender, diseñado específicamente para la industria de restaurantes. Facilita y optimiza todas las operaciones del negocio, desde la toma de pedidos hasta el cierre de caja.",
+   "foto": "img/productos/apk-axiscloud.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 2
+  },
+  {
+   "id": "axiscloud-android",
+   "nombre": "AxisCloud Android",
+   "categoria": "software",
+   "precio": 20,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "AxisCloud: Es un software Android de punto de venta (POS) completo y flexible, diseñado específicamente para la industria de restaurantes. Facilita y optimiza todas las operaciones del negocio, desde la toma de pedidos hasta el cierre de caja.",
+   "foto": "img/productos/axiscloud-android.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 3
+  },
+  {
+   "id": "aplicacion-comandero-para-dptes",
+   "nombre": "APK Restaurante para dependientes",
+   "categoria": "software",
+   "precio": 0,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Aplicación para Android que utilizan los dependientes en los negocios para comandar las notas de pedidos dd los clientes, donde registran las mesas, productos y sus cantidades asi como los comentarios a estos. se integra sistema de caja AxisPos que se utiliza ya en varios negocios del país. Se cobra por la activación de la licencia para su uso, la pagan los negocios p los dependientes, según sea.",
+   "foto": "img/productos/aplicacion-comandero-para-dptes.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 4
+  },
+  {
+   "id": "tienda-en-online-axismarket",
+   "nombre": "Tienda online AxisMarket",
+   "categoria": "software",
+   "precio": 50,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "AxisMarket es una plataforma de ventas diseñada para negocios que necesitan publicar, organizar y mostrar sus productos de forma clara, rápida y profesional.\nAxisMarket permite exhibir el catálogo de la tienda con precios, fotos y categorías, facilitando que los clientes encuentren lo que buscan y que el negocio gestione su inventario y ofertas desde un solo lugar.",
+   "foto": "img/productos/tienda-en-online-axismarket.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 5
+  },
+  {
+   "id": "generador-de-etiquetas-de-precios-de-axispos-axisprecios",
+   "nombre": "Generador de Etiquetas de Precios de AxisPos (AxisPrecios)",
+   "categoria": "software",
+   "precio": 0,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "AxisPrecios es una herramienta diseñada para imprimir etiquetas de precio de forma rápida, precisa y totalmente sincronizada con AxisPos. AxisPrecios genera etiquetas térmicas y PDF directamente desde la base de datos de AxisPos, asegurando que cada precio sea exacto, actualizado y listo para montar en tienda sin errores ni procesos manuales. Otorgamos 7 días totalmente gratis, usted lo prueba y si le funciona pues ahi tiene se le activa su licencia por un año o ilimitada.\nAqui te dejamos el link para wue la descargues la instales y la pruebes 7 días totalmente gratis. copia y pega este link en tu navegador en tu pc y solictame la descarga totalmente gratis\n\nDescarga tu demo aquí totalmente gratis y sin compromiso.\n👇\n🌐https://cubanpos.github.io/axisprecios/",
+   "foto": "img/productos/generador-de-etiquetas-de-precios-de-axispos-axisprecios.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 6
+  },
+  {
+   "id": "cubachange-pro-casa-de-cambio-privada",
+   "nombre": "CubaChange Pro (Casa de Cambio Privada)",
+   "categoria": "software",
+   "precio": 500,
+   "precioOferta": 450,
+   "resumen": "",
+   "descripcion": "CubaChange Pro es un sistema web especializado para la gestión completa de Casas de Cambio en Cuba, permite registrar operaciones de compra y venta de divisas, controlar tasas, manejar caja y generar reportes automáticos, ofreciendo seguridad, precisión y eficiencia en cada transacción del negocio. Incluye soporte inicial y puesta a punto, ese es el precio de un terminal.",
+   "foto": "img/productos/cubachange-pro-casa-de-cambio-privada.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 7
+  },
+  {
+   "id": "cartelera-y-menu-en-tv-axiscartelera",
+   "nombre": "Cartelera y Menú en TV (AxisCartelera)",
+   "categoria": "software",
+   "precio": 50,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "AxisCartelera es una herramienta diseñada para mostrar información visual de forma clara y atractiva dentro del negocio. AxisCartelera permite proyectar en pantallas digitales precios, ofertas, productos y avisos del comercio, manteniendo todo actualizado automáticamente desde AxisPos para una presentación moderna, ordenada y profesional.",
+   "foto": "img/productos/cartelera-y-menu-en-tv-axiscartelera.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 8
+  },
+  {
+   "id": "sunmi-v3-mix-terminal-movil-inteligente",
+   "nombre": "SUNMI V3 MIX Terminal móvil inteligente",
+   "categoria": "equipos",
+   "precio": 550,
+   "precioOferta": 500,
+   "resumen": "",
+   "descripcion": "Características del SUNMI D3 Mini\nEl SUNMI D3 Mini es una terminal de punto de venta fija, pensada para uso en mostrador fijo y con impresora integrada, ideal para tiendas de conveniencia, comercios pequeños o escritorios\nDiseño y pantalla\nPantalla principal de 10.1\" IPS inclinada ergonómicamente para mejor visibilidad y comodidad de uso\nVersión 80 mm incluye pantalla secundaria táctil capacitiva de 4\" IPS\nDiseño compacto, ligero y minimalista, con acabado gris y acabado metálico spray\nHardware y rendimiento\nProcesador: Qualcomm hexa-core de 2.4 GHz\nMemoria: 3 GB RAM + 32 GB ROM\nAlmacenamiento: UFS 2.2 para alta velocidad de lectura/escritura y confiabilidad\nConectividad: Wi-Fi dual band (2.4G + 5G), Bluetooth, GPS/Glonass/Beidou/Galileo\nBatería: 3100 mAh (versión 58 mm), hasta 4 h de autonomía; optimizada por el sistema Funciones y periféricos integrados\nImpresora térmica integrada de 58 mm (versión 58 mm) o 80 mm (versión 80 mm)\nVelocidad de impresión: 100 mm/s (58 mm) o 50 mm/s (80 mm)\nEscáner láser 2D y lector NFC para pagos SoftPOS y código QR\nCompatible con rollos de hasta 50 mm de diámetro\nCompatible con etiquetas preimpresas, de color, con forma especial, ultrafina o con marca negra\nSistema operativo y optimización\nSistema operativo SUNMI 4.0 optimizado para tiempos de inicio y respuesta más rápidos que su predecesor\nCompatible con facturación CFDI instalando la app correspondiente\nAplicaciones recomendadas\nIdeal para tiendas de conveniencia, comercios fijos, kioscos o escritorios donde se requiere impresora integrada y pantalla grande para menú y comandas\nEn resumen, el SUNMI D3 Mini combina pantalla grande, impresora integrada, NFC, escáner 2D y batería de larga duración en un diseño compacto, pensado para un uso fijo y eficiente en el mostrador.",
+   "foto": "img/productos/sunmi-v3-mix-terminal-movil-inteligente.webp",
+   "agotado": true,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 9
+  },
+  {
+   "id": "sunmi-p2-se",
+   "nombre": "SUNMI P2 SE",
+   "categoria": "equipos",
+   "precio": 300,
+   "precioOferta": 280,
+   "resumen": "",
+   "descripcion": "Terminal de pago inteligente - SUNMI P2 SE\nTerminal asequible, experiencia de pago atractiva\nPrinter Built-in 58mm thermal\nBatería de litio extraíble de 7,2 V / 2600 mAh\nWi-Fi 2,4 GHz/5 GHz IEEE 802.11 a/b/g/n\nRed 2G, 3G y 4G\nBluetooth 5.0 BLE\nGPS AGPS Beidou Galileo\nPuertos\n1 puerto USB tipo C\ncompatible con OTG.\n1 pin Pogo en la parte posterior\npara carga (opcional)\nCámara Trasera: 0,3 MP, FF 2 MP, FF (opcional) escaneo de códigos de barras 1D/2D\nhttps://www.sunmi.com/en/p2-se/",
+   "foto": "img/productos/sunmi-p2-se.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 10
+  },
+  {
+   "id": "monitores-de-cocina-tactiles",
+   "nombre": "Monitores de Cocina Táctiles",
+   "categoria": "equipos",
+   "precio": 500,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "",
+   "foto": "img/productos/monitores-de-cocina-tactiles.webp",
+   "agotado": true,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 11
+  },
+  {
+   "id": "mini-ups-profesional-battery-backup-power-systems",
+   "nombre": "MINI-UPS Profesional Battery Backup Power Systems",
+   "categoria": "equipos",
+   "precio": 60,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Professional-Grade UPS Units - Battery Backup Power Systems\n• Carga multidispositivo : 3 puertos DC + 1 puerto USB, permite alimentar varios dispositivos simultáneamente.\n• Larga duración de la batería : la batería de 10000 mAh (excepto en el modelo KP3 EC) ofrece un tiempo de funcionamiento prolongado.\n· Alta compatibilidad : la salida de 36 W (KP3 Pro) es compatible con más dispositivos.\n• Diseño seguro : La carcasa ignífuga V-0 protege a los usuarios y la propiedad.\n· Transición sin interrupciones : transferencia de CA a CC en 0 ms; los dispositivos funcionan sin parar durante los cambios de alimentación.\n• Fácil instalación : Las ranuras de montaje en pared permiten una instalación sencilla en la pared.\n• Refrigeración estable : La refrigeración por aire garantiza la estabilidad a largo plazo del SAI mediante la máxima disipación de calor.",
+   "foto": "img/productos/mini-ups-profesional-battery-backup-power-systems.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 12
+  },
+  {
+   "id": "router-nauta-hogar-tp-link-td-w8961n-300mbps",
+   "nombre": "Router Nauta Hogar TP-Link TD-W8961N 300Mbps",
+   "categoria": "equipos",
+   "precio": 80,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "TP-Link TD-W8961N 300Mbps Wireless N ADSL2+ Modem Router\nEl TP-Link TD-W8961N es un dispositivo todo en uno que combina módem ADSL2+, router NAT, conmutador de 4 puertos y punto de acceso inalámbrico. Diseñado para el hogar y pequeñas empresas, ofrece una conexión de alta velocidad y una red confiable para múltiples dispositivos.\n\nCaracterísticas principales:\nVelocidad inalámbrica: Hasta 300 Mbps, ideal para juegos en línea, transmisión de video HD y llamadas por Internet.\nBotón WPS: Seguridad inalámbrica de un solo toque para mayor tranquilidad.\nAsistente de configuración: Instalación fácil con soporte multilingüe.\nCompatibilidad: Compatible con estándares 802.11n/b/g.\nDiseño compacto: Ahorra espacio y combina funciones esenciales en un solo dispositivo.\nEspecificaciones técnicas:\nFrecuencia: 2.4 GHz.\nPuertos LAN: 4 puertos 10/100 Mbps.\nProtocolo de seguridad: Soporte WPS para mayor protección.\nConexión: Tecnología Wi-Fi con capacidad ADSL2+.",
+   "foto": "img/productos/router-nauta-hogar-tp-link-td-w8961n-300mbps.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 13
+  },
+  {
+   "id": "impresora-de-comandas-cocina-rj45",
+   "nombre": "Impresora de Comandas Cocina RJ45",
+   "categoria": "equipos",
+   "precio": 180,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Una impresora de comandas de cocina RJ45 sin autocorte (equipo económico) es un equipo diseñado para recibir órdenes del sistema POS a través de conexión de red Ethernet, es una impresora de cocina conectada por cable RJ45 que recibe las comandas vía red local, ofreciendo mayor estabilidad, velocidad y alcance que el WiFi, ideal para restaurantes que necesitan imprimir pedidos sin interrupciones.",
+   "foto": "img/productos/impresora-de-comandas-cocina-rj45.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 14
+  },
+  {
+   "id": "bascula-digitales-con-conexion-rs232",
+   "nombre": "Básculas digitales con conexión RS232",
+   "categoria": "equipos",
+   "precio": 200,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Las básculas digitales con conexión RS232 son equipos de pesaje que pueden enviar datos directamente a computadoras, cajas registradoras o sistemas POS mediante un puerto serial. Son básculas precisas y confiables que transmiten el peso en tiempo real a través de RS232, permitiendo integrarse con software de ventas, control de inventario o facturación para agilizar procesos y evitar errores manuales.",
+   "foto": "img/productos/bascula-digitales-con-conexion-rs232.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 15
+  },
+  {
+   "id": "escaner-de-codigo-de-barra-inalambrico",
+   "nombre": "Escáner de Código de Barra inalámbrico",
+   "categoria": "equipos",
+   "precio": 130,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Escáner inalámbrico\nLector de código 1D, 2D, QR.\nConexiones: USB/Bluetooth\nConexión inalámbrica 2.4GHz.\nBatería 16-20 horas\nDiseño ergonómico\nSilicona antichoque\nSoporta multi-lenguaje\nCompatible con: Windows/Mac OS/Android/IOS/Linux.",
+   "foto": "img/productos/escaner-de-codigo-de-barra-inalambrico.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 16
+  },
+  {
+   "id": "impresora-termica-de-caja",
+   "nombre": "Impresora Térmica de Caja USB + Bluetooth",
+   "categoria": "equipos",
+   "precio": 150,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Una impresora térmica de caja para POS es un equipo diseñado para imprimir tickets de venta de manera rápida y sin usar tinta, ideal para puntos de venta comerciales, es una impresora especializada para sistemas POS que genera recibos nítidos en papel térmico, con alta velocidad, bajo mantenimiento y compatibilidad con la mayoría de cajas y software de facturación.",
+   "foto": "img/productos/impresora-termica-de-caja.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 17
+  },
+  {
+   "id": "equipamiento-para-sistema-de-control-de-ventas-en-los-negocios",
+   "nombre": "Escáner de código de barras cableado USB",
+   "categoria": "equipos",
+   "precio": 100,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Escáner de código AxisSoft\nLector de código 1D, 2D, QR.\nConexiones: USB\nDiseño de silicona antichoque\nCompatible con Windows/Mac OS/ Android/IOS/Linux",
+   "foto": "img/productos/equipamiento-para-sistema-de-control-de-ventas-en-los-negocios.webp",
+   "agotado": true,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 18
+  },
+  {
+   "id": "impresora-lasser-para-tickets",
+   "nombre": "Impresora térmica para tiques",
+   "categoria": "equipos",
+   "precio": 250,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Impresora térmica de recibos, impresora POS USB de 3.150 in, cortador automático, Conector RJ45, soporte para cajón, soporte para Windows/Mac/Linux, no cuadrada, impresora para oficina en casa, cocina de restaurante con autocorte.",
+   "foto": "img/productos/impresora-lasser-para-tickets.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 19
+  },
+  {
+   "id": "relojes-para-dependientes-con-botones",
+   "nombre": "Relojes de llamado para dependientes 🛎️",
+   "categoria": "equipos",
+   "precio": 160,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Sistema de alarma mediante reloj para los dptes con 1 RELOJ + 10 botones 🛎️ para el llamado, que pueden ser ubicados en caja, cocina, vip mesas y así las áreas llaman al dpte hasta 500pies de distancia y con batería infinita. Consultar precio según cantidad de botones a incluir.",
+   "foto": "img/productos/relojes-para-dependientes-con-botones.webp",
+   "agotado": true,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 20
+  },
+  {
+   "id": "lector-de-codigo-de-barra",
+   "nombre": "Lector de Código de Barra SuperLead",
+   "categoria": "equipos",
+   "precio": 150,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Escáner de escritorio\nLector de código 1D, 2D,QR.\nConexiones (RS232, USB.)\nAlta Velocidad de lectura\nAlta Compatibilidad (Windows/ Mac OS/Android/IOS/Linux.)",
+   "foto": "img/productos/lector-de-codigo-de-barra.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 21
+  },
+  {
+   "id": "modulo-de-caja-para-sistema-de-control-de-venta",
+   "nombre": "Módulo de caja para sistema de control de ventas",
+   "categoria": "equipos",
+   "precio": 900,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Esta integrado por: Monitor Táctil, Computadora e Impresora. se entrega colo un equipo todo en uno y funcionando perfectamente. Cero Kms con garantía de 6 meses contra despertados del equipo y su funcionamiento, y no por mala manipulación o negligencia en su uso.",
+   "foto": "img/productos/modulo-de-caja-para-sistema-de-control-de-venta.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 22
+  },
+  {
+   "id": "impresora-lasser-58mm",
+   "nombre": "Impresora térmica 58 mm USB + Bluetooth",
+   "categoria": "equipos",
+   "precio": 130,
+   "precioOferta": 100,
+   "resumen": "",
+   "descripcion": "Ideal para Tiendas o Mercados conexion USB+Bluetooth",
+   "foto": "img/productos/impresora-lasser-58mm.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 23
+  },
+  {
+   "id": "escaner-de-codigo-de-barras",
+   "nombre": "Escáner de código de barras",
+   "categoria": "equipos",
+   "precio": 130,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Escáner de código de barras Bluetooth 2D, lector de código de barras QR inalámbrico automático 3 en 1, escáner de código de imagen USB para tienda, almacén POS, computadora, tableta, iPad,",
+   "foto": "img/productos/escaner-de-codigo-de-barras.webp",
+   "agotado": true,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 24
+  },
+  {
+   "id": "sistema-de-vigilancia-para-el-negocio",
+   "nombre": "Cámara de vigilancia para el Negocio",
+   "categoria": "seguridad",
+   "precio": 0,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Cámara vigilancia para el negocio, en las variantes de wifi 🛜 o cableadas. Realizamos el proyecto, presupuesto de la instalación y configuración del equipos y las cámaras. Hasta entregar el sistema puesta a punto, incluye la venta del equipamiento cero Kms.",
+   "foto": "img/productos/sistema-de-vigilancia-para-el-negocio.webp",
+   "agotado": true,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 25
+  },
+  {
+   "id": "escaner-de-codigo-de-barras-usb-2d",
+   "nombre": "Escáner de Código de Barras USB 2D",
+   "categoria": "equipos",
+   "precio": 130,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Escáner de Código de Barras USB 2D con Cable y Base, Alta Precisión, Material ABS, Protocolo Wiegand",
+   "foto": "img/productos/escaner-de-codigo-de-barras-usb-2d.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 26
+  },
+  {
+   "id": "alarma-de-seguridad-personal-alarma-personal-portatil-para-mujeres",
+   "nombre": "Alarma de seguridad personal portátil",
+   "categoria": "seguridad",
+   "precio": 15,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "TECKNET Alarma de seguridad personal, alarma personal portátil para mujeres con luz estroboscópica intermitente y alerta de batería baja, alarma de llavero de emergencia recargable de 130 dB para",
+   "foto": "img/productos/alarma-de-seguridad-personal-alarma-personal-portatil-para-mujeres.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 27
+  },
+  {
+   "id": "cajon-de-billetes-para-sistema-de-punto-de-venta",
+   "nombre": "Cajón de billetes para sistema de punto de venta",
+   "categoria": "equipos",
+   "precio": 130,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Volcora Cajón de caja registradora para sistema de punto de venta (POS) con esquina redonda de 13 pulgadas, bandeja extraíble para monedas, 4 billetes/5 monedas, 12-24 V, cerradura de llave RJ11/RJ12, ranura para medios, efectivo para negocios, blanco",
+   "foto": "img/productos/cajon-de-billetes-para-sistema-de-punto-de-venta.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 28
+  },
+  {
+   "id": "sistema-de-alarma-inalambrico-para-seguridad-del-hogar",
+   "nombre": "Sistema de alarma inalámbrico para el hogar",
+   "categoria": "seguridad",
+   "precio": 280,
+   "precioOferta": 250,
+   "resumen": "",
+   "descripcion": "Sistema de alarma inalámbrico para seguridad del hogar, 24 piezas WiFi+GSM/4G sistema de alarma para el hogar con sistema de seguridad de alarma fuerte, botón SOS, alarmas de ventana, control de",
+   "foto": "img/productos/sistema-de-alarma-inalambrico-para-seguridad-del-hogar.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 29
+  },
+  {
+   "id": "modelo-lte-modelo-tvs-1326-12v-2a-5-8g",
+   "nombre": "Router 4G LTE TVS-1326",
+   "categoria": "equipos",
+   "precio": 300,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Modelo: LTE MODELO TVS-1326, 12V-2A, 5.8G, Los routers 4G LTE son dispositivos que permiten conectar equipos a Internet utilizando la red móvil, sin necesidad de líneas fijas o cables, ofrecen una conexión rápida y estable mediante tarjeta SIM, ideal para negocios y hogares que necesitan Internet portátil, seguro y disponible en cualquier lugar con cobertura móvil.",
+   "foto": "img/productos/modelo-lte-modelo-tvs-1326-12v-2a-5-8g.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 30
+  },
+  {
+   "id": "alarma-wifi-sistema-de-seguridad",
+   "nombre": "Alarma WiFi Sistema de seguridad",
+   "categoria": "seguridad",
+   "precio": 100,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Alarma WiFi Sistema de seguridad para el hogar, sistema de alarma de 120 dB con sensor de movimiento y control remoto, sirena WiFi para alarma de garaje",
+   "foto": "img/productos/alarma-wifi-sistema-de-seguridad.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 31
+  },
+  {
+   "id": "impresora-etiquetadora-de-codigos-barra",
+   "nombre": "Impresora Etiquetadora de Códigos Barra",
+   "categoria": "equipos",
+   "precio": 150,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Excelente Printer de Etiquetas de precios y de codigos de barra.",
+   "foto": "img/productos/impresora-etiquetadora-de-codigos-barra.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 32
+  },
+  {
+   "id": "alarma-con-sensor-de-movimiento-para-patios",
+   "nombre": "Alarma con Sensor de Movimiento para Patios",
+   "categoria": "seguridad",
+   "precio": 25,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Aolyty Luz solar de alarma con sensor de movimiento con sirena y LED rojo\nMáquina de ruido fuerte IP65 impermeable 4 modos de trabajo para granja, huerto, pasto, hogar, patio",
+   "foto": "img/productos/alarma-con-sensor-de-movimiento-para-patios.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 33
+  },
+  {
+   "id": "impresora-termica-detickets-80mm",
+   "nombre": "Impresora térmica de tiques 80 mm",
+   "categoria": "equipos",
+   "precio": 200,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Bisofice Impresora de recibos de 3.150 in Impresora térmica ESC/POS Impresión directa de escritorio Conexión USB+LAN Alta eficiencia con cortador automático Papelera grande para envío Negocios Restaurante Cocina Supermercado.\nSobre este artículo\n▶ Impresión eficiente y asequible: nuestra impresora de 80 recibos está diseñada para una alta eficiencia, con una velocidad de impresión rápida de hasta 7.874 in/seg. Cuenta con un cortador automático para facilitar el corte de papel y no requiere cartuchos de tinta ni cintas, lo que resulta en bajos costos de operación. Además, el cabezal de impresión térmica garantiza una impresión clara y el papel térmico está fácilmente disponible.\n▶ Impresora de recibos USB: nuestra impresora de recibos admite conectividad USB y LAN, proporcionando comodidad y facilidad de uso. Es compatible con varios sistemas operativos como Windows XP/VISTA/7/8/10.\n▶ Especificaciones de la impresora térmica. : Con un ancho de papel de 3.150 in y un ancho de impresión de 2.835 in, nuestra impresora de recibos puede acomodar un diámetro máximo de rollo de papel de 3.268 in. Cuenta con una resolución de 576 puntos/línea, lo que garantiza una calidad de impresión clara y un rendimiento confiable. Además, admite la impresión de una variedad de contenido, incluyendo texto multilingüe, imágenes, logotipos y códigos de barras (códigos 1D/QR).\n▶ Diseño para colgar en la pared: nuestra impresora de recibos está cuidadosamente diseñada con dos agujeros para colgar en la parte inferior, lo que permite colgar fácilmente en la pared. Esta característica ayuda a ahorrar valioso espacio en el mostrador y mejora la usabilidad general.\n▶ Amplia gama de aplicaciones: nuestra impresora POS es la opción ideal para tiendas minoristas, tiendas de comestibles, tiendas de ropa, supermercados, cafeterías, restaurantes y cualquier otro negocio que requiera el uso de recibos. Su versatilidad y fiabilidad lo convierten en un imprescindible para una gestión eficiente de las transacciones.",
+   "foto": "img/productos/impresora-termica-detickets-80mm.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 34
+  },
+  {
+   "id": "kit-sistema-de-alarma-de-seguridad-para-tiendas",
+   "nombre": "Kit Sistema de Alarma de Seguridad para Tiendas",
+   "categoria": "seguridad",
+   "precio": 100,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Kit Sistema de alarma de seguridad para el hogar, oficina y tienda independiente, sirena de interior/exterior resistente a la intemperie con control remoto y sensor de contacto de puerta.",
+   "foto": "img/productos/kit-sistema-de-alarma-de-seguridad-para-tiendas.webp",
+   "agotado": true,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 35
+  },
+  {
+   "id": "impresora-de-recibos-de-bolsillo",
+   "nombre": "Impresora de Recibos de Bolsillo",
+   "categoria": "equipos",
+   "precio": 120,
+   "precioOferta": 110,
+   "resumen": "",
+   "descripcion": "Impresora de recibos, mini impresora térmica portátil de recibos, impresora de boletos de recibos USB con papel de impresión de 2.283 in, apto para Android apto para ganar, impresoras térmicas para restaurantes, ventas minoristas",
+   "foto": "img/productos/impresora-de-recibos-de-bolsillo.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 36
+  },
+  {
+   "id": "tablet-android-7pulgadas",
+   "nombre": "Tablet Android 7 pulgadas",
+   "categoria": "equipos",
+   "precio": 180,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "VASOUN Tablet Android 15 de 7 pulgadas 2025, 8GB (3GB+5GB Expand) RAM 32GB ROM, procesador de 5 núcleos, ultraportátil, WiFi 5G 6, batería de 3500mAh, tablet para niños y viajes",
+   "foto": "img/productos/tablet-android-7pulgadas.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 37
+  },
+  {
+   "id": "tablet-10-pulgadas-revvl-tab2",
+   "nombre": "Tablet 10 pulgadas Revvl Tab2",
+   "categoria": "otros",
+   "precio": 200,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "T-Mobile REVVL TAB 2 5G | 64GB | Desbloqueado | Tablet de 10.1 pulgadas | Negro",
+   "foto": "img/productos/tablet-10-pulgadas-revvl-tab2.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 38
+  },
+  {
+   "id": "proyector-de-video-pericat",
+   "nombre": "Proyector de Video Pericat",
+   "categoria": "otros",
+   "precio": 120,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Proyector con WiFi y Bluetooth, pericat 4K compatible con proyector nativo\nNative 1080P; película portátil para exteriores pequeña; proyector de cine en casa para dormitorio; compatible con PC, HDMI.\nFull HD 1080P mejorado: el proyector portátil PJ108 adopta la última tecnología de proyección 2025 y calibración de color LCD y alta transmitancia de luz con resolución nativa de 1920 x 1080P, alta relación de contraste dinámico 10000:1, muestra una imagen más clara, brillante y rica. Proyector de video que combina una innovadora lente de vidrio de alta refracción de 7 capas, este proyector 4K con clasificación de brillo de 180ANSI tiene una vida útil más larga\nConexión WiFi rápida y función Bluetooth 5.3: este proyector con WiFi y Bluetooth, con la última conexión WiFi de doble banda 2.4G y 5G, el mini proyector Pericat 4K te ofrece una conexión más estable y disfrute de video en línea y música sin interrupciones. Con la nueva tecnología Bluetooth 5.3, puedes conectar fácilmente auriculares/altavoces Bluetooth inalámbricos, y disfrutar de diferentes formas de experiencia de sonido, y el altavoz integrado actualizado de 15W de calidad de sonido ultra clara te permite escuchar audios sutiles con claridad incluso al aire libre, y hace que nuestro proyector de cine en casa sea un proyector de música único\nAmplia compatibilidad: Este proyector 4k ultra hd 5G está equipado con HDMI incorporado, AV, USB y puerto para auriculares de 3.5mm, compatible con TV Stick/Xbox, PS3/4/5, PC, teléfonos inteligentes, tablets, portátiles, reproductores de DVD. Perfecto para películas, videojuegos, fiestas, actividades al aire libre, partidos de fútbol en vivo, etc. (Nota: Debido a derechos de autor, videos como Netflix, Amazon Prime, Disney y Hulu no son compatibles para reproducirse directamente mediante la duplicación de pantalla con el teléfono inteligente; se debe conectar un TV stick para reproducirlos.)\nProyector Bluetooth con pantalla gigante de 200 '' y zoom del 50% y corrección trapezoidal de ±15°: el proyector Bluetooth ofrece una pantalla de 35 '' a 200 '', función de zoom del 50-100%, y relación de aspecto 4:3/16:9, distancia de proyección de 4.1-17.5 pies. Los ajustes flexibles de Keystone hacen que lograr la posición perfecta de la pantalla sea muy fácil. Este proyector inteligente es compacto, por lo que puedes poner fácilmente este mini proyector en tu bolso, mochila o maleta. Ya sea que estés viendo películas o disfrutando de transmisiones en vivo de deportes/camping al aire libre\nGarantía de servicio de por vida: equipado con un embalaje exquisito y compacto, este proyector para exteriores es un regalo ideal para niños, novios, novias, amigos y seres queridos. Lleva este proyector de cine para disfrutar de un maravilloso tiempo de reunión con familiares y amigos. Nos comprometemos a mejorar la calidad del producto y el servicio, proporcionamos servicio al cliente 24/7 y si encuentras algún problema, puedes ponerte en contacto con nuestro equipo de servicio al cliente, y haremos todo lo posible para ayudarte",
+   "foto": "img/productos/proyector-de-video-pericat.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 39
+  },
+  {
+   "id": "gps-para-vehiculos-baanool-403b-4g",
+   "nombre": "GPS para vehículos (BAANOOL-403B 4G)",
+   "categoria": "otros",
+   "precio": 100,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "BN 403 A/B 4G - Dispositivo de seguimiento GPS para vehículos, sin tarifa mensual, dispositivo de seguimiento de automóviles, mini localizador para automóvil, camión, taxi\n\n[Compatibilidad]: Necesitarás comprar una tarjeta SIM para usar este rastreador. El rastreador GPS TK403 A/B para vehículos debe instalarse en la fuente de alimentación de a bordo. Es compatible con varios coches de combustible. El perseguidor GPS del automóvil 403 A/B del coche apoya la red 2G/4G. Descargue la aplicación (BAANOOL IOT) en Apple Store o Google Play.\n[APP/Plataforma gratuita]: Proporcionamos plataforma web gratuita y aplicación, sin cargos, sin tarifa mensual. El uso de este rastreador GPS del coche puede ahorrar en gran medida su costo. Nuestra plataforma te ayudará a gestionar tus coches, vehículos y flotas. Los dispositivos pueden ser controlados por SMS/APP/plataforma web. Y es compatible con múltiples idiomas.\n[Funciones]: Hay muchas características que necesita, como alarma de sobrevelocidad, impermeable, GEO-cerca, corte del motor, alarma de movimiento, posicionamiento en tiempo real, control remoto (para el modelo 403B), reproducción histórica y así sucesivamente. Este dispositivo también se puede conectar con otra plataforma.\n[Cobertura mundial]: Nuestros dispositivos se pueden utilizar en todo el mundo, solo necesita insertar una tarjeta SIM en él. Funciona con satélites GPS, ubicación precisa, seguimiento en tiempo real. Está totalmente bien si desea utilizar 403 rastreadores de vehículos en otros países.\n[Servicio]: los rastreadores GPS BAANOOL es un fabricante original que proporciona servicio posventa completo. Si los dispositivos tienen algún problema, contáctenos para adquirir una solución perfecta. (Una tarjeta SIM no está incluida)",
+   "foto": "img/productos/gps-para-vehiculos-baanool-403b-4g.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 40
+  },
+  {
+   "id": "lampara-led-frontal-recargable",
+   "nombre": "Lámpara Led Frontal Recargable",
+   "categoria": "otros",
+   "precio": 20,
+   "precioOferta": 16,
+   "resumen": "",
+   "descripcion": "Lámpara frontal recargable, con haz de luz amplio de 230° y LED, equipada con sensor de movimiento para adultos. Accesorio ideal para camping, impermeable, y perfecta como linterna frontal para senderismo, correr, reparaciones, pesca y ciclismo.",
+   "foto": "img/productos/lampara-led-frontal-recargable.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 41
+  },
+  {
+   "id": "servicios-informaticos-axispos",
+   "nombre": "Servicios Informáticos AxisPos",
+   "categoria": "servicios",
+   "precio": 0,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Servicios informáticos abarcan soluciones técnicas para mantener, optimizar y proteger los sistemas digitales de una empresa, consisten en la instalación, soporte, mantenimiento y seguridad de equipos, redes y software, garantizando que la tecnología del negocio funcione de forma estable, rápida y segura.",
+   "foto": "img/productos/servicios-informaticos-axispos.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 42
+  },
+  {
+   "id": "capacitacion-axispos",
+   "nombre": "Capacitación AxisPos",
+   "categoria": "servicios",
+   "precio": 0,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Servicio profesional que enseña a negocios y empleados a usar el sistema de ventas de forma rápida, correcta y productiva. La capacitación de AxisPos prepara al personal para dominar el sistema, aprender a registrar ventas, gestionar inventario, configurar precios, generar reportes y resolver tareas diarias sin errores, garantizando un uso eficiente y seguro del software desde el primer día. Tiene varios precios segun la complejidad Administrador, Manager y Económicos Nivel 1 entonces Almaceneros, Cajeros y Dptes\nAdministradores Y Manager 10,000 CUP\nEconomico o Balancista 10,000CUP\nCajero 6,000CUP\nDpte 5,000CUP",
+   "foto": "img/productos/capacitacion-axispos.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 43
+  },
+  {
+   "id": "plan-en-mano-yerro-menu",
+   "nombre": "Plan Llave en Mano Yerro Menú 🔑",
+   "categoria": "servicios",
+   "precio": 0,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Con este plan accedes al servicio por un año incluyendo el montaje de tu catálogo o menú, y la capacitación personalizada en línea una vez terminado el montaje para que pueda manejar su catálogo y actualizarlo.",
+   "foto": "img/productos/plan-en-mano-yerro-menu.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 44
+  },
+  {
+   "id": "gestion-de-menu-o-tienda-en-linea-24h-7",
+   "nombre": "Gestión de Menú o Tienda en línea 24h/7 (Mtto Mensual)",
+   "categoria": "servicios",
+   "precio": 0,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Para negocios que no tienen tiempo de actualizar su menú en línea, y desean contratar el servicio de gestión o agencia de menú o tienda en línea, se le asigna un personal que encargará de mantener actualizado el catálogo según indique el cliente. Es precio se define por acuerdo entre las partes.",
+   "foto": "img/productos/gestion-de-menu-o-tienda-en-linea-24h-7.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 45
+  },
+  {
+   "id": "servicio-de-montaje-del-menu",
+   "nombre": "Servicio de Montaje de la Carta Menú o Catálogo de Productos y Servicios",
+   "categoria": "servicios",
+   "precio": 0,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "En tan solo 48h hacemos su montaje. Al recibir la carta menu o catálogo de productos y servicios del negocio nos encargamos de hacer el montaje de todos los productos con: nombre de producto, descripción comercial e incluimos los gramajes informados por el cliente, precio y foto del producto o servicio. asi como diseñamos de mejor manera el orden de las categorias por la experiencia del usuario. El precio se calcula según la cantidad de productos del negocio, envíenos su carta menú y le hacemos una oferta de su montaje que se haceen 72h y con la calidad y exquisitez con que trabaja nuestro personal.",
+   "foto": "img/productos/servicio-de-montaje-del-menu.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 46
+  },
+  {
+   "id": "generacion-de-codigos-qr-personalizados",
+   "nombre": "Códigos QR Personalizados con tu Logo o marca personal",
+   "categoria": "servicios",
+   "precio": 0,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Si desea transmitir a sus clientes información explícita de su contacto, descripción de productos y precios, dirección domiciliar, contactos generales, la letra de una canción, un sitio web de su negocio, grupos de whsatsapp o telegram, redes sociales o lo que de le ocurra incorporar en un regalo como etiqueta con un mensaje oculto, pues le entrego un QR personalizado con su marca dentro o el logo de su preferencia.",
+   "foto": "img/productos/generacion-de-codigos-qr-personalizados.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 47
+  },
+  {
+   "id": "qr-de-walet-bitcoins",
+   "nombre": "QR de billetera Bitcoin (Trust Wallet)",
+   "categoria": "qr",
+   "precio": 0,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Envié solo Bitcoins a está dirección, el envío se otro tipo de moneda puede ocasionar perdidas permanentes.\nDirección: (bc1qwd427ps7kk8vj7tylwt2ky4m8jdmywk9e98trd)",
+   "foto": "img/productos/qr-de-walet-bitcoins.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 48
+  },
+  {
+   "id": "qr-de-pago-por-transfermovil",
+   "nombre": "QR Tarjeta en CUP por Transfermovil",
+   "categoria": "qr",
+   "precio": 0,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Favor escanear el QR desde la Opción de Transferencias en las Operaciones de Trasnfermovil, una vez ya abierta su sección en el sistema.",
+   "foto": "img/productos/qr-de-pago-por-transfermovil.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 49
+  },
+  {
+   "id": "papel-termico-57x40mm",
+   "nombre": "Papel Térmico 57x40mm (Caja 100u)",
+   "categoria": "insumos",
+   "precio": 0,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Los rollos térmicos de 57x40mm son mas usados por los PCPOS, son consumibles de impresión fabricados con papel térmico sensible al calor. Se utilizan en impresoras de punto de venta para generar tickets nítidos y rápidos sin necesidad de tinta. Ofrecen alta durabilidad, lectura clara y compatibilidad con la mayoría de cajas registradoras, POS y datáfonos.",
+   "foto": "img/productos/papel-termico-57x40mm.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 50
+  },
+  {
+   "id": "papel-termico-80x50mm",
+   "nombre": "Papel Térmico 80x50mm (Caja 100u)",
+   "categoria": "insumos",
+   "precio": 0,
+   "precioOferta": null,
+   "resumen": "",
+   "descripcion": "Los rollos térmicos son consumibles de impresión fabricados con papel térmico sensible al calor. Se utilizan en impresoras de punto de venta para generar tickets nítidos y rápidos sin necesidad de tinta. Ofrecen alta durabilidad, lectura clara y compatibilidad con la mayoría de cajas registradoras, POS y datáfonos.",
+   "foto": "img/productos/papel-termico-80x50mm.webp",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": false,
+   "visible": true,
+   "orden": 51
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+<!doctype html><meta charset="utf-8"><title>marco</title>
+<style>body{margin:0;background:#888;display:flex;gap:20px;padding:10px}iframe{border:0;background:#fff}</style>
+<script>
+// marco.html?u=/ruta&w=390&h=8000 — muestra la página en un iframe del ancho de un teléfono
+var q=new URLSearchParams(location.search);
+document.write('<iframe src="'+q.get('u')+'" width="'+(q.get('w')||390)+'" height="'+(q.get('h')||8000)+'"></iframe>');
+</script>

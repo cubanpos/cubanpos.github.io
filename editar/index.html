@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Panel CUBANPOS</title>
+<link rel="icon" href="../img/marca/icono.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="editar.css?v=2">
+</head>
+<body>
+
+<!-- ENTRADA -->
+<section class="entrada" id="entrada">
+  <form class="entrada-caja" id="formEntrada">
+    <div class="marca"><img src="../img/marca/icono.svg" alt="" width="36" height="36"><span>CUBAN<b>POS</b></span><small>Panel de edición</small></div>
+    <h1>Entrar para editar la web</h1>
+    <p class="ayuda">Los cambios se guardan en GitHub y todos los visitantes los ven en unos minutos. Necesitas tu <b>llave de acceso</b> (token) de GitHub; se queda solo en este navegador.</p>
+    <label class="campo"><span>Llave de acceso de GitHub</span><input id="token" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_… o ghp_…" required></label>
+    <details class="mas">
+      <summary>Repositorio y rama</summary>
+      <div class="fila2">
+        <label class="campo"><span>Repositorio</span><input id="repo" value="cubanpos/cubanpos.github.io" spellcheck="false"></label>
+        <label class="campo"><span>Rama</span><input id="rama" value="main" spellcheck="false"></label>
+      </div>
+    </details>
+    <label class="casilla"><input type="checkbox" id="recordar" checked> Recordar la llave en este equipo</label>
+    <button class="btn primario ancho" type="submit">Entrar</button>
+    <button class="btn claro ancho" type="button" id="soloProbar">Probar sin conectar (no publica)</button>
+    <details class="mas">
+      <summary>¿Cómo saco la llave de acceso?</summary>
+      <ol class="pasos-ayuda">
+        <li>En GitHub, con la cuenta <b>cubanpos</b>, abre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Configuración › Tokens de acceso</a>.</li>
+        <li>Nombre: <i>Panel web</i>. Vencimiento: el que prefieras (por ejemplo, un año).</li>
+        <li>En <b>Repository access</b> elige <i>Only select repositories</i> y marca <b>cubanpos.github.io</b>.</li>
+        <li>En <b>Permissions › Contents</b> elige <b>Read and write</b>.</li>
+        <li>Pulsa <b>Generate token</b>, cópialo y pégalo arriba. GitHub no lo vuelve a mostrar.</li>
+      </ol>
+    </details>
+  </form>
+</section>
+
+<!-- PANEL -->
+<div class="panel" id="panel" hidden>
+  <header class="cab">
+    <div class="marca"><img src="../img/marca/icono.svg" alt="" width="30" height="30"><span>CUBAN<b>POS</b></span></div>
+    <div class="cab-estado" id="cabEstado"></div>
+    <div class="cab-acciones">
+      <a class="btn claro" href="../" target="_blank" rel="noopener">Ver la web</a>
+      <button class="btn primario" id="publicar" type="button" disabled>Publicar</button>
+      <button class="icono" id="salir" type="button" title="Salir" aria-label="Salir">⎋</button>
+    </div>
+  </header>
+  <nav class="pestanas" id="pestanas" role="tablist">
+    <button role="tab" data-p="productos" aria-selected="true">Productos</button>
+    <button role="tab" data-p="categorias">Categorías</button>
+    <button role="tab" data-p="textos">Textos de la web</button>
+    <button role="tab" data-p="contacto">Contacto y horario</button>
+    <button role="tab" data-p="monedas">Monedas</button>
+    <button role="tab" data-p="preguntas">Preguntas y opiniones</button>
+    <button role="tab" data-p="respaldo">Respaldo</button>
+  </nav>
+  <main class="cuerpo" id="cuerpo"></main>
+</div>
+
+<!-- FICHA DE EDICIÓN -->
+<dialog class="editor" id="editor" aria-labelledby="editorTitulo">
+  <form method="dialog" id="formProducto" novalidate>
+    <div class="editor-cab"><h2 id="editorTitulo">Editar producto</h2><button class="icono" value="cancelar" aria-label="Cerrar">✕</button></div>
+    <div class="editor-cuerpo">
+      <div class="editor-foto">
+        <div class="foto-vista" id="fotoVista"><span>Sin foto</span></div>
+        <label class="btn claro ancho"><input type="file" id="fotoArchivo" accept="image/*" hidden>Subir o cambiar foto</label>
+        <p class="nota">Se reduce sola a 800 px y a formato WebP. Mejor sobre fondo blanco.</p>
+      </div>
+      <div class="editor-campos">
+        <label class="campo"><span>Nombre</span><input id="eNombre" maxlength="120"></label>
+        <div class="fila2">
+          <label class="campo"><span>Categoría</span><select id="eCategoria"></select></label>
+          <label class="campo"><span>Orden (menor sale primero)</span><input id="eOrden" type="number" step="1"></label>
+        </div>
+        <div class="fila2">
+          <label class="campo"><span>Precio (<span class="mbase">USD</span>) · 0 = a consultar</span><input id="ePrecio" type="number" min="0" step="0.01" inputmode="decimal"></label>
+          <label class="campo"><span>Precio de oferta (vacío = sin oferta)</span><input id="eOferta" type="number" min="0" step="0.01" inputmode="decimal"></label>
+        </div>
+        <label class="campo"><span>Resumen para la tarjeta (opcional; si está vacío se usa el comienzo de la descripción)</span><input id="eResumen" maxlength="160"></label>
+        <label class="campo"><span>Descripción completa</span><textarea id="eDescripcion" rows="9"></textarea></label>
+        <div class="casillas">
+          <label class="casilla"><input type="checkbox" id="eVisible"> Visible en la web</label>
+          <label class="casilla"><input type="checkbox" id="eAgotado"> Agotado</label>
+          <label class="casilla"><input type="checkbox" id="eNuevo"> Nuevo</label>
+          <label class="casilla"><input type="checkbox" id="eDestacado"> Popular</label>
+        </div>
+      </div>
+    </div>
+    <div class="editor-pie">
+      <button class="btn peligro" type="button" id="eBorrar">Borrar producto</button>
+      <span class="espacio"></span>
+      <button class="btn claro" value="cancelar">Cancelar</button>
+      <button class="btn primario" value="guardar" id="eGuardar">Guardar cambios</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- VENTANA DE MENSAJES -->
+<dialog class="ventana" id="ventana" aria-labelledby="ventanaTitulo">
+  <h2 id="ventanaTitulo"></h2>
+  <div id="ventanaTexto"></div>
+  <div class="ventana-botones" id="ventanaBotones"></div>
+</dialog>
+
+<script src="editar.js?v=2" defer></script>
+</body>
+</html>
